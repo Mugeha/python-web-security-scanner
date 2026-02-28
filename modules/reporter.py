@@ -181,8 +181,8 @@ class ReportGenerator:
         total_vulns = len(sqli_vulns) + len(xss_vulns)
         
         if total_vulns == 0:
-            print(f"\n{Fore.GREEN}✅ No vulnerabilities detected!")
+            print(f"\n{Fore.GREEN} No vulnerabilities detected!")
         else:
-            print(f"\n{Fore.RED}⚠️  Total vulnerabilities: {total_vulns}")
+            print(f"\n{Fore.RED}  Total vulnerabilities: {total_vulns}")
         
         print(f"\n{Fore.YELLOW}{'='*60}\n")
