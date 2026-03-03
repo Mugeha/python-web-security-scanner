@@ -1,4 +1,4 @@
-# 🔐 Python Web Security Scanner
+# Python Web Security Scanner
 
 A comprehensive, automated web application security scanner that detects common vulnerabilities including SQL Injection, Cross-Site Scripting (XSS), and security misconfigurations.
 
@@ -8,14 +8,14 @@ A comprehensive, automated web application security scanner that detects common 
 
 ---
 
-## 🎯 Features
+## Features
 
 ### Core Scanning Capabilities
-- ✅ **Web Crawler** - Automatically discovers pages, forms, and parameters
-- ✅ **SQL Injection Detection** - Error-based, Boolean-based, and Time-based
-- ✅ **XSS Detection** - Reflected and Stored Cross-Site Scripting
-- ✅ **Security Headers Analysis** - Checks for missing security headers
-- ✅ **Professional Reports** - Generates HTML and JSON reports
+- **Web Crawler** - Automatically discovers pages, forms, and parameters
+- **SQL Injection Detection** - Error-based, Boolean-based, and Time-based
+- **XSS Detection** - Reflected and Stored Cross-Site Scripting
+- **Security Headers Analysis** - Checks for missing security headers
+- **Professional Reports** - Generates HTML and JSON reports
 
 ### Detection Techniques
 - **SQL Injection:**
@@ -37,7 +37,7 @@ A comprehensive, automated web application security scanner that detects common 
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Basic Usage
 
@@ -90,7 +90,7 @@ python scanner.py -u http://example.com --no-xss
 
 ---
 
-## 📚 Command-Line Options
+## Command-Line Options
 ```
 usage: scanner.py [-h] -u URL [-d DEPTH] [-o OUTPUT]
                   [--sqli-only] [--xss-only] [--headers-only]
@@ -119,7 +119,7 @@ Report Options:
 
 ---
 
-## 📊 Output & Reports
+## Output & Reports
 
 ### Console Output
 Real-time colored output showing:
@@ -145,7 +145,7 @@ Machine-readable JSON format containing:
 
 ---
 
-## 🎓 How It Works
+## How It Works
 
 ### 1. Web Crawling Phase
 ```
@@ -303,14 +303,6 @@ MIT License - See LICENSE file for details
 
 ---
 
-## 👤 Author
-
-**[Your Name]**
-- Portfolio: [your-portfolio.com](https://your-portfolio.com)
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
-
----
 
 ## 🙏 Acknowledgments
 
